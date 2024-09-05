@@ -29,8 +29,9 @@ bodyClass: "page-home"
       <div class="col-12 col-md-4 mb-1">
         <div class="service service-summary">
           <div class="service-content">
-            <h2 class="service-title">
-              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+            <h2 class="service-title" style="color:#e5261F;">
+              {{ service.title }}
+              <!-- <a href="{{ service.url | relative_url }}">{{ service.title }}</a> -->
             </h2>
             <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
           </div>
@@ -38,15 +39,90 @@ bodyClass: "page-home"
       </div>
       {% endfor %}
     </div>
-    <div class="row justify-content-center">
-      <div class="col-auto">
-        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
-      </div>
-    </div>
+    <!-- <div class="row justify-content-center"> -->
+      <!-- <div class="col-auto"> -->
+        <!-- <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a> -->
+      <!-- </div> -->
+    <!-- </div> -->
   </div>
 </div>
 
-{% if site.data.features %}
+{% if site.data.games %}
+<div class="strip strip-grey">
+  <div class="container pt-6 ">
+    <h1>Original Games</h2>
+  </div>
+  <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row justify-content-center">
+
+      {% for game in site.data.games %}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="feature">
+          {% if game.image %}
+          <div class="feature-image"><img alt="{{ game.title }} logo" src="{{ game.image.url | relative_url }}" width="{{ game.image.width }}" height="{{ game.image.height }}" /></div>
+          {% endif %}
+          <h2 class="feature-title">{{ game.title }}</h2>
+          <div class="feature-content">{{ game.description }}</div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% if site.data.cooperation %}
+<div class="strip strip-white">
+  <div class="container pt-6 ">
+    <h1>Made in Cooperation</h2>
+  </div>
+  <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row justify-content-center">
+
+      {% for game in site.data.cooperation %}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="feature">
+          {% if game.image %}
+          <div class="feature-image"><img alt="{{ game.title }} logo" src="{{ game.image.url | relative_url }}" width="{{ game.image.width }}" height="{{ game.image.height }}" /></div>
+          {% endif %}
+          <h2 class="feature-title">{{ game.title }}</h2>
+          <div class="feature-content">{{ game.description }}</div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% if site.data.playables %}
+<div class="strip strip-grey">
+  <div class="container pt-6 ">
+    <h1>Playable Ads</h2>
+  </div>
+  <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row justify-content-center">
+
+      {% for game in site.data.playables %}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="feature">
+          {% if game.image %}
+          <div class="feature-image"><img alt="{{ game.title }} logo" src="{{ game.image.url | relative_url }}" width="{{ game.image.width }}" height="{{ game.image.height }}" /></div>
+          {% endif %}
+          <h2 class="feature-title">{{ game.title }}</h2>
+          <div class="feature-content">{{ game.description }}</div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<!-- {% if site.data.features %}
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <div class="row justify-content-center">
@@ -66,4 +142,4 @@ bodyClass: "page-home"
     </div>
   </div>
 </div>
-{% endif %}
+{% endif %} -->
