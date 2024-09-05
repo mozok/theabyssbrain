@@ -1,13 +1,13 @@
 {
-    "originRepo": "https://github.com/zerostaticthemes/jekyll-serif-theme",
-    "title": "Jekyll Serif",
-    "description": "Serif is a multi page business theme for Jekyll.",
-    "demoUrl": "https://jekyll-advance.netlify.app",
-    "categories": {
-      "ssg": ["jekyll"],
-      "css": ["bootstrap", "scss"],
-      "archetype": ["business"],
-      "features": ["netlify", "github-pages"],
-      "blueprint": ["theme"]
-    }
+  "originRepo": "https://github.com/zerostaticthemes/jekyll-serif-theme",
+  "title": "The Abyss Brain",
+  "description": "We are a team of indie developers based in Ukraine. We are combining our experience from various fields to create cross-platform game experiences.",
+  "demoUrl": "https://jekyll-advance.netlify.app",
+  "categories": {
+    "ssg": ["jekyll"],
+    "css": ["bootstrap", "scss"],
+    "archetype": ["business"],
+    "features": ["netlify", "github-pages"],
+    "blueprint": ["theme"]
+  }
 }

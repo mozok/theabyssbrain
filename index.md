@@ -1,13 +1,15 @@
 ---
-title: Jekyll Serif Theme
+title: The Abyss Brain
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+description: We are a team of indie developers based in Ukraine. We are combining our experience from various fields to create cross-platform game experiences.
 intro_image: "images/illustrations/pointing.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
-show_call_box: true
+show_call_box: false
 ---
 
-# Serif - A Jekyll Business Theme.
+# The Abyss Brain
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+We are a team of indie developers based in Ukraine.
+
+We are combining our experience from various fields to create cross-platform game experiences.
