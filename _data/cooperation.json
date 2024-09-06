@@ -3,45 +3,45 @@
     "title": "Horror Pinball",
     "description": "Get ready for a spine-chilling pinball experience!\nMade in cooperation with BlackMoon Design",
     "image": {
-      "url": "images/features/noun_branding_1885335.svg",
-      "width": 80,
-      "height": 80
+      "url": "images/games/HorrorPinball_256x256.png",
+      "width": 100,
+      "height": 100
     }
   },
   {
     "title": "BlackJack Mini",
     "description": "Get ready for some quick, catchy fun with 'BlackJack Mini'! Designed for both mobile and PC, this small web game offers fast-paced gameplay perfect for those moments when you need a quick break.\nMade in cooperation with BlackMoon Design",
     "image": {
-      "url": "images/features/noun_branding_1885335.svg",
-      "width": 80,
-      "height": 80
+      "url": "images/games/BlackJack_256x256R.png",
+      "width": 100,
+      "height": 100
     }
   },
   {
     "title": "Cooking Hippos",
     "description": "Step into the adorable world of 'Cooking Hippos' where you become a cute Hippo Chef tasked with preparing delicious fries and hotdogs on randomly generated levels!\nMade in cooperation with BlackMoon Design",
     "image": {
-      "url": "images/features/noun_branding_1885335.svg",
-      "width": 80,
-      "height": 80
+      "url": "images/games/CookingHippos_256x256R.png",
+      "width": 100,
+      "height": 100
     }
   },
   {
     "title": "Checkers",
     "description": "Experience the thrill of strategic gameplay and immersive visuals on both HTML5 and Mobile platforms, ensuring you can enjoy the excitement anytime, anywhere!\nMade in cooperation with BlackMoon Design",
     "image": {
-      "url": "images/features/noun_branding_1885335.svg",
-      "width": 80,
-      "height": 80
+      "url": "images/games/Checkers_256x256R.png",
+      "width": 100,
+      "height": 100
     }
   },
   {
     "title": "Domino Solitaire",
     "description": "our new casual arcade game that will keep you entertained while you're on the go.\nMade in cooperation with BlackMoon Design",
     "image": {
-      "url": "images/features/noun_branding_1885335.svg",
-      "width": 80,
-      "height": 80
+      "url": "images/games/DominoSolitaire_256x256R.png",
+      "width": 100,
+      "height": 100
     }
   }
 ]

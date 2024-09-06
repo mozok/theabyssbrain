@@ -3,18 +3,18 @@
     "title": "Dead Brain",
     "description": "Puts you in the shoes of a fearless farmer standing between your crops and the undead hordes. With simple controls and intense action, players must strategically use random upgrades to survive each wave and push their limits. After each victorious wave, you'll get to choose a random bonus to aid your survival. Gain a new weapon, heal your hero, repair your defenses, or even boost your health! Are you ready to defend your farm and become the ultimate zombie-slaying hero?",
     "image": {
-      "url": "images/features/noun_branding_1885335.svg",
-      "width": 80,
-      "height": 80
+      "url": "images/games/dead_brain_628x628.png",
+      "width": 100,
+      "height": 100
     }
   },
   {
     "title": "Helpful Nail",
     "description": "You are playing in the role of a Helpful Nail, that tries as hard as it can to stay unbent while being hit by a hammer. Stay as close to the center as you can. Collect combos. And nail your best score!",
     "image": {
-      "url": "images/features/noun_The Process_1885341.svg",
-      "width": 80,
-      "height": 80
+      "url": "images/games/HN_icon_512x512.jpg",
+      "width": 100,
+      "height": 100
     }
   }
 ]
