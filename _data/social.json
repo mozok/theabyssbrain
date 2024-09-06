@@ -10,6 +10,11 @@
     "image": "images/social/twitter.svg"
   },
   {
+    "name": "ArtStation",
+    "link": "https://www.artstation.com/the-abyss-brain",
+    "image": "images/social/artstation.svg"
+  },
+  {
     "name": "Email",
     "link": "mailto:mozokevgen@gmail.com ",
     "image": "images/social/email.svg"

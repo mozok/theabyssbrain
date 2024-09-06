@@ -25,6 +25,13 @@
           </a>
       </div>
       {% endif %}
+      {% if site.data.contact.artstation %}
+      <div class="call-additional"><strong>Art Station: </strong>
+          <a href="{{ .site.data.contact.artstation }}">
+              {{ site.data.contact.artstation }}
+          </a>
+      </div>
+      {% endif %}
     {% endif %}
   </div>
     {% if include.show_button %}
