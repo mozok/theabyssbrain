@@ -3,18 +3,18 @@
     "title": "Sushi Chef",
     "description": "Assemble custom rolls to match customer orders.",
     "image": {
-      "url": "images/features/noun_branding_1885335.svg",
-      "width": 80,
-      "height": 80
+      "url": "images/games/sushi-on-plate.png",
+      "width": 100,
+      "height": 100
     }
   },
   {
     "title": "Shopping Cart Dash",
     "description": "Mini-game where player collect specific items against a timer.",
     "image": {
-      "url": "images/features/noun_The Process_1885341.svg",
-      "width": 80,
-      "height": 80
+      "url": "images/games/basket.png",
+      "width": 100,
+      "height": 100
     }
   }
 ]
