@@ -10,6 +10,22 @@
       </a>
     </div>
     {% endif %}
+    {% if include.additionals | false %}
+      {% if site.data.contact.linkedin %}
+      <div class="call-additional"><strong>LinkedIn: </strong>
+          <a href="{{ .site.data.contact.linkedin }}">
+              {{ site.data.contact.linkedin }}
+          </a>
+      </div>
+      {% endif %}
+      {% if site.data.contact.twitter %}
+      <div class="call-additional"><strong>X(Twitter): </strong>
+          <a href="{{ .site.data.contact.twitter }}">
+              {{ site.data.contact.twitter }}
+          </a>
+      </div>
+      {% endif %}
+    {% endif %}
   </div>
     {% if include.show_button %}
       <div class="call-box-bottom">
