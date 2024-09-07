@@ -58,10 +58,12 @@ bodyClass: "page-home"
       {% for game in site.data.games %}
       <div class="col-12 col-md-6 col-lg-4 mb-2">
         <div class="feature">
-          {% if game.image %}
-          <div class="feature-image"><img alt="{{ game.title }} logo" src="{{ game.image.url | relative_url }}" width="{{ game.image.width }}" height="{{ game.image.height }}" /></div>
-          {% endif %}
-          <h2 class="feature-title">{{ game.title }}</h2>
+          {% if game.url %}<a href="{{ game.url }}" target="_blank" class="feture-link">{% endif %}
+            {% if game.image %}
+            <div class="feature-image"><img alt="{{ game.title }} logo" src="{{ game.image.url | relative_url }}" width="{{ game.image.width }}" height="{{ game.image.height }}" /></div>
+            {% endif %}
+            <h2 class="feature-title">{{ game.title }}</h2>
+          {% if game.url %}</a>{% endif %}
           <div class="feature-content">{{ game.description }}</div>
         </div>
       </div>
@@ -83,11 +85,14 @@ bodyClass: "page-home"
       {% for game in site.data.cooperation %}
       <div class="col-12 col-md-6 col-lg-4 mb-2">
         <div class="feature-dark">
-          {% if game.image %}
-          <div class="feature-image"><img alt="{{ game.title }} logo" src="{{ game.image.url | relative_url }}" width="{{ game.image.width }}" height="{{ game.image.height }}" /></div>
-          {% endif %}
-          <h2 class="feature-title">{{ game.title }}</h2>
+          {% if game.url %}<a href="{{ game.url }}" target="_blank" class="feture-link">{% endif %}
+            {% if game.image %}
+            <div class="feature-image"><img alt="{{ game.title }} logo" src="{{ game.image.url | relative_url }}" width="{{ game.image.width }}" height="{{ game.image.height }}" /></div>
+            {% endif %}
+            <h2 class="feature-title">{{ game.title }}</h2>
+          {% if game.url %}</a>{% endif %}
           <div class="feature-content">{{ game.description }}</div>
+          <div calss="feature-content">{{ game.partner }}</div>
         </div>
       </div>
       {% endfor %}
