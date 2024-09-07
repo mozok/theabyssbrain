@@ -3,11 +3,31 @@
   border: 1px solid $white-offset;
   border-radius: 3px;
   padding: 20px;
-  background-color: $white-offset;
+  
+  background: $white-offset;
+  background: -moz-linear-gradient(-45deg, $white-offset 3.3%, $gradient-light 109.6%);
+  background: -webkit-gradient(left top, right bottom, color-stop(3.3%, $white-offset), color-stop(109.6%, $gradient-light));
+  background: -webkit-linear-gradient(-45deg, $white-offset 3.3%, $gradient-light 109.6%);
+  background: -o-linear-gradient(-45deg, $white-offset 3.3%, $gradient-light 109.6%);
+  background: -ms-linear-gradient(-45deg, $white-offset 3.3%, $gradient-light 109.6%);
+  background: linear-gradient(135deg, $white-offset 3.3%, $gradient-light 109.6%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$white-offset', endColorstr='$gradient-light', GradientType=1 );
+
+
   display: flex;
   align-items: center;
   flex-direction: column;
   text-align: center;
+  .feture-link {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    .feature-title {
+      color: $primary-dark;
+    }
+  }
   .feature-image {
     flex: 0 0 auto;
     width: 80px;
@@ -23,7 +43,7 @@
   .feature-title {
   }
   .feature-content {
-    margin-bottom: 0;
-    margin-top: auto;
+    margin-bottom: auto;
+    margin-top: 0;
   }
 }
