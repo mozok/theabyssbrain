@@ -51,6 +51,11 @@ jobs:
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
+      - name: Copy favicon
+        uses: canastro/copy-file-action@master
+        with:
+          source: "images/favicon-32x32.png"
+          target: "./_site/favicon.png"
 
   # Deployment job
   deploy:
